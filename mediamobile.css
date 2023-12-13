@@ -1,0 +1,46 @@
+@media (max-width:468px){
+    .search{
+        font-size: 1.5rem;
+    }
+
+    .bars{
+        font-size: 1.7rem;
+    }
+    .spider-man{
+        font-size: 0.5rem;
+        padding: 5rem 2rem;
+    }
+    .spider-man p{
+        padding: 1rem 0;
+        font-size: medium;
+    }
+    .spider-man h1{
+        padding: 1rem 0;
+    }
+    .spidy_img img{
+        height: 50px;
+        width: 100px;
+        font-size: 0.2rem;
+    }
+    .spidy_button{
+        padding: 5px;
+    }
+    .left_unlimited{
+        padding: 1rem;
+    }
+    .comics{
+        width: 100%;
+        height: 150px;
+        /* background-color: black; */
+     }
+     .comic_img{
+        width: 200px;
+        height: 100px;
+        background-size: cover;
+        background-position: top;
+     }
+     .comic_text{
+        font-size: 0.5rem;
+        width: 100px;
+     }
+}
