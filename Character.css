@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards_items{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border: 2px solid green;
+}
+
+.main_imgg{
+    width: 300px;
+    position: absolute;
+    z-index: 1001;
+    height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/28/09/50/ai-generated-8154910_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border: 2px solid blue;
+}
+
+.main_imgg:hover{
+    transform: perspective(800px) rotateX(40deg);
+    box-shadow: 2px 2px 20px 15px grey;
+    filter: blur(2px);
+    /* transition: translateY 1s all; */
+
+}
+
+.second_img{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    /* display: none; */
+    /* transition: transform 3s linear; */
+
+}
+
+.second_img img{
+    transition: transform 0.5s ease-in;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    /* display: none; */
+    /* transition: translateY 0.5s all; */
+
+}
+
+.main_imgg:hover ~ .second_img img{
+    transform: translateY(-100px);
+    display: inline;
+    /* transition: translateY 0.5s all; */
+    z-index: 1003;
+
+}
