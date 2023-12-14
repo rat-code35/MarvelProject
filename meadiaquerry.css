@@ -193,23 +193,29 @@
         z-index: -2;
       }
       .flex_container{
-        width: 100vw;
+        width: 95vw;
+        margin: 10px auto;
         height: 800px;
         display: flex;
+        align-items: center;
         flex-direction: column;
-        /* align-items: center; */
+        overflow: hidden;
+      }
+      .left_container{
+        width: 90%;
+        margin: 10px auto;
       }
       .right_container{
-        width: 60vw;
+        width: 90%;
+        margin: 10px auto;
+        overflow: scroll;
+
       }
       .list_items{
-        width: 100vw;
+        width: 350%;
+        display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-      }
-      .item_cards{
-        width: 400px !important;
-        background-size: cover;
+        /* overflow: scroll; */
       }
      }
 
