@@ -937,12 +937,19 @@ transition:  0.2s ease-in-out;
  /* footer section */
 
  .footer_container{
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5rem;
     background-color: var(--background_color);
     color: white;
     padding: 2rem 0;
+    /* margin: 20px auto; */
+ }
+
+ .footer_logo img{
+    object-fit: cover;
  }
 
  .footer_items ul li{
@@ -965,4 +972,16 @@ transition:  0.2s ease-in-out;
      flex-wrap: wrap;
     gap: 20px;
     width: 60%;
+ }
+
+ .item_parent{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+ }
+
+ .icon_parent{
+    display: flex;
+    align-items: center;
+    gap:50px;
  }

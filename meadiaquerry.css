@@ -231,6 +231,9 @@
         width: 100%;
     
      }
+     .footer_container{
+      flex-direction: column;
+     }
      }
 
 
